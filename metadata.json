@@ -1,0 +1,8 @@
+{
+  "uuid": "topbar-telegram@yunusemreyasar",
+  "name": "Top Bar Telegram",
+  "description": "Drop-down Telegram Desktop window, toggled from the top bar or a keyboard shortcut (like ddterm).",
+  "shell-version": ["45", "46", "47", "48"],
+  "settings-schema": "org.gnome.shell.extensions.topbar-telegram",
+  "url": "https://github.com/yunuseysr/gnome-topbar-telegram"
+}

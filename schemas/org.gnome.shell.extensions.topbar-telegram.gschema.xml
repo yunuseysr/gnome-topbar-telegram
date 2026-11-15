@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.topbar-telegram" path="/org/gnome/shell/extensions/topbar-telegram/">
+    <key name="toggle-key" type="as">
+      <default><![CDATA[['<Super>F12']]]></default>
+      <summary>Shortcut that toggles the Telegram window</summary>
+    </key>
+    <key name="width-percent" type="i">
+      <range min="20" max="100"/>
+      <default>60</default>
+      <summary>Window width as a percentage of the work area</summary>
+    </key>
+    <key name="height-percent" type="i">
+      <range min="20" max="100"/>
+      <default>70</default>
+      <summary>Window height as a percentage of the work area</summary>
+    </key>
+    <key name="hide-on-unfocus" type="b">
+      <default>true</default>
+      <summary>Hide the window when another window gets focus</summary>
+    </key>
+    <key name="animation-duration" type="i">
+      <range min="0" max="1000"/>
+      <default>200</default>
+      <summary>Slide animation duration in milliseconds</summary>
+    </key>
+  </schema>
+</schemalist>
